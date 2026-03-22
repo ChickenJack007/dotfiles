@@ -1,8 +1,9 @@
-##Requirements
+## Requirements
 - btop      - System Monitor
 - cava      - Audio Visualizer
 - fastfetch - System Information
 - hyprland  - Window Manager
+- swww      - Wallpaper Manager
 - hyprlock  - Lock Screen
 - hypridle  - Locks Screen When Idle
 - kitty     - Terminal
