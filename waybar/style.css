@@ -1,0 +1,137 @@
+@import "theme.css";
+* {
+    border: none;
+
+    /*font-family: Font Awesome, Arial, MesloLGMDZ Nerd Font Propo, sans-serif;*/
+    font-family: "Montserrat Regular", "MesloLGMDZ Nerd Font Propo";
+    /*font-family: Font Awesome, Arial, CommitMono Nerd Font Propo, sans-serif;*/
+    font-size: 12.2px;
+    color: @text;
+    border-radius: 20px;
+}
+
+window {
+	/*font-weight: bold;*/
+}
+window#waybar {
+    background: rgba(0, 0, 0, 0);
+}
+/*-----module groups----*/
+.modules-right {
+	background-color: @bg;
+    margin: 2px 12px 0 0;
+}
+#custom-music {
+  margin: 2px 12px 0 5;
+}
+.modules-center {
+	background-color: @bg;
+    margin: 2px 13px 0 0;
+}
+/*#clock {
+  font-size: 13px;
+}*/
+.modules-left {
+	background-color: @bg;
+    margin: 2px 12px 0 2;
+}
+/*-----modules indv----*/
+#workspaces button {
+    padding: 0px 9px 0 0px;
+    background-color: transparent;
+}
+#workspaces button:hover {
+    box-shadow: inherit;
+	/*background-color: rgba(137,180,250,0.6);*/
+}
+
+#workspaces button.focused {
+	background-color: rgba(0,0,0,0.6);
+}
+
+#log,
+#clock,
+#battery,
+#cpu,
+#memory,
+#temperature,
+/*#network,*/
+#pulseaudio,
+#bluetooth
+#power-profiles-daemon,
+#custom-media,
+#custom-lock,
+#tray,
+#mode,
+#window,
+#custom-music
+#custom-power,
+#custom-notification,
+#custom-appmenu,
+#idle_inhibitor {
+    padding: 0 6;
+}
+#bluetooth {
+  padding: 0 5;
+}
+#widget {
+  padding: 0 0;
+  margin: 0px;
+}
+#network {
+  /*margin: 0px;*/
+  padding: 0 5;
+}
+#power-profiles-daemon {
+  padding: 0 5;
+}
+#tray {
+  padding: 0 5;
+}
+#mode {
+    color: @red;
+    font-weight: bold;
+}
+#custom-appmenu {
+  font-size: 16px;
+} 
+
+#custom-power {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 100px;
+    margin: 5px 5px;
+    padding: 1px 1px 1px 6px;
+}
+/*-----Indicators----*/
+#idle_inhibitor.activated {
+    color: @green;
+}
+#pulseaudio.muted {
+    color: @red;
+}
+#battery.charging {
+    color: @green;
+}
+#battery.warning:not(.charging) {
+	color: @yellow;
+}
+#battery.critical:not(.charging) {
+    color: @red;
+}
+#temperature.critical {
+    color: @red;
+}
+#bluetooth.on {
+  color: @accent;
+}
+#bluetooth.connected {
+  color: @blue;
+}
+
+/*-----Colors----*/
+/*
+ *rgba(0,85,102,1),#005566 --> Indigo(dye)
+ *rgba(0,43,51,1),#002B33 --> Dark Green 
+ *rgba(0,153,153,1),#009999 --> Persian Green 
+ *
+ */

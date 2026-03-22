@@ -1,0 +1,36 @@
+/*waybar*/
+@define-color bg rgba(8,20,34,0.6);
+/*@define-color bg rgba(30, 30, 46, 0.6);*/
+@define-color red #f38ba8;
+@define-color yellow #f9e2af;
+@define-color green #a6e3a1;
+@define-color blue #89b4fa;
+@define-color text #cdd6f4;
+@define-color subtext1 #bac2de;
+@define-color subtext0 #a6adc8;
+@define-color overlay2 #9399b2;
+@define-color overlay1 #7f849c;
+@define-color overlay0 #6c7086;
+@define-color surface2 #585b70;
+@define-color surface1 #45475a;
+@define-color surface0 #313244;
+@define-color base #1e1e2e;
+@define-color mantle #181825;
+@define-color crust #11111b;
+
+/*swaync*/
+@define-color urgent #f38ba8;
+@define-color foreground #cdd6f4;
+@define-color background rgba(30, 30, 46, 0.4);
+@define-color background-alpha rgba(30, 30, 46, 0.4);
+@define-color background-alt rgba(30, 30, 46, 0.4);
+
+/*@define-color background rgba(10, 16, 23, 0.4);
+@define-color background-alpha rgba(10, 16, 23, 0.4);
+@define-color background-alt rgba(10, 16, 23, 0.4);*/
+@define-color accent rgba(33, 97, 185, 0.8);
+@define-color selected rgba(33, 97, 185, 0.8);
+/*@define-color current-line rgb(8, 20, 34);
+@define-color comment rgb(8, 20, 34);*/
+@define-color current-line rgb(30, 30, 46);
+@define-color comment rgb(30, 30, 46);
