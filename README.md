@@ -1,3 +1,5 @@
+<h1 align="center">My hyprland config</h1>
+![rice](images/rice.png)
 ## Requirements
 - btop      - System Monitor
 - cava      - Audio Visualizer
