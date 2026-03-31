@@ -25,7 +25,7 @@
 .floating-notifications.background .notification-row .notification-background {
   /*background: @background;*/
   /*box-shadow: 0 0 8px 0 rgba(0,0,0,.6);*/
-  border-radius: 9px;
+  border-radius: 7px;
   /*border: 2px solid @selected;*/
   padding: 0;
 }
@@ -33,7 +33,7 @@
 .floating-notifications.background .notification-row .notification-background .notification {
   /*padding: 6px;*/
   background: @background-alt;
-  border-radius: 9px;
+  border-radius: 7px;
   border: 2px solid @selected;
   margin-top: 10px;
   margin-right: 10px;
@@ -52,7 +52,7 @@
 }*/
 
 .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action {
-  border-radius: 9px;
+  border-radius: 7px;
   border: 2px solid @selected;
   background-color: @background-alt ;
   margin: 6px;
@@ -85,7 +85,7 @@
 .floating-notifications.background .notification-row .notification-background .close-button {
   margin: 6px;
   padding: 2px;
-  border-radius: 9px;
+  border-radius: 7px;
   background-color: transparent;
   border: 1px solid transparent;
 }

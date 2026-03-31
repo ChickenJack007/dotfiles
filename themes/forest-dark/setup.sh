@@ -1,7 +1,7 @@
 #notify-send "Changing theme"
 
 #wallpaper
-swww img ~/.config/themes/forest-dark/Forest-Dark.png --transition-type center --transition-fps 60 --transition-step 255
+awww img ~/.config/themes/forest-dark/Forest-Dark.png --transition-type center --transition-fps 60 --transition-step 255
 
 #waybar
 cp ~/.config/themes/forest-dark/theme.css ~/.config/waybar/

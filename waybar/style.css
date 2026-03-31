@@ -14,7 +14,7 @@ window {
 	/*font-weight: bold;*/
 }
 window#waybar {
-    background: rgba(0, 0, 0, 0);
+    background: transparent;
 }
 /*-----module groups----*/
 .modules-right {
@@ -82,7 +82,8 @@ window#waybar {
   /*margin: 0px;*/
   padding: 0 5;
 }
-#power-profiles-daemon {
+#power-profiles-daemon,
+#custom-lock {
   padding: 0 5;
 }
 #tray {

@@ -1,7 +1,7 @@
 #notify-send "Changing theme"
 
 #wallpaper
-swww img ~/.config/themes/catppuccin-mocha/koishi.jpg --transition-type center --transition-fps 60 --transition-step 255
+awww img ~/.config/themes/catppuccin-mocha/koishi.jpg --transition-type center --transition-fps 60 --transition-step 255
 
 #waybar
 cp ~/.config/themes/catppuccin-mocha/theme.css ~/.config/waybar/

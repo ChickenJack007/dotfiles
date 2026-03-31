@@ -39,7 +39,7 @@
   },
   "tray": {
       "icon-size": 14,
-      "spacing": 3
+      "spacing": 6
   },
   "custom/appmenu": {
     "format": "󰣇",
@@ -214,9 +214,9 @@
     },
     "modules":[
       "custom/notification",
-      "bluetooth",
       "tray",
       "network",
+      "bluetooth",
       "power-profiles-daemon"
     ]
   }
