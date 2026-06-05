@@ -1,9 +1,11 @@
 {
   "layer": "top",
   "position": "top",
-  "margin-top": 1,
-  "margin-left": 0,
-  "margin-right": 0,
+  "margin-top": 5,
+  "margin-left": 10,
+  "margin-right": 10,
+  "margin-bottom": 0,
+  "height": 15,
   "spacing" : 0,
   "modules-left": [ 
       "group/log",
@@ -28,7 +30,7 @@
 
 
   "hyprland/workspaces": {
-    "format": "{name}:{icon}",
+    "format": "{name}: <span font='9'>{icon}</span>",
     "format-icons": {
       //"active": "",
       //"default": ""
@@ -39,13 +41,13 @@
   },
   "tray": {
       "icon-size": 14,
-      "spacing": 6
+      "spacing": 5
   },
   "custom/appmenu": {
-    "format": "󰣇",
+    "format": "<span font='12'>󰣇</span>",
     "tooltip-format": "Left: Open the application launcher\nRight: Show all keybindings",
     "on-click": "rofi -show drun -replace & sleep 0.2; hyprctl dispatch focuswindow '^(Rofi)'",
-    "on-click-right": "~/.config/notscripter/scripts/keybindings.sh",
+    //"on-click-right": "~/.config/notscripter/scripts/keybindings.sh",
     "tooltip": false
   },
 
@@ -75,7 +77,7 @@
 },
   "custom/notification": {
     "tooltip": true,
-    "format": "<span size='12pt'>{icon}</span>",
+    "format": "<span size='11pt'>{icon}</span>",
     "format-icons": {
       "notification": "󱅫",
       "none": "󰂜",
@@ -95,7 +97,7 @@
   },
 
   "custom/music": {
-    "format": " {}",
+    "format": "<span font='9'>  </span>{}",
     "escape": true,
     "interval": 1,
     "tooltip": false,
@@ -152,11 +154,11 @@
   },
   
   "pulseaudio": {
-    "format": "{icon} {volume}%",
+    "format": "<span font='9'>{icon}</span> {volume}%",
 
-    "format-muted": "",
+    "format-muted": " ",
     "format-icons": {
-      "default": ["", "", ""]
+      "default": [" ", " ", " "]
     },
     //"on-click": "kitty -e alsamixer"
   },
@@ -168,14 +170,14 @@
             "warning": 30,
             "critical": 15
         },
-        "format": "{icon}{capacity}%",
-        "format-full": "{icon} {capacity}%",
-        "format-charging": " {capacity}%",
-        "format-plugged": " {capacity}%",
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
         "format-alt": "{icon} {time}",
         // "format-good": "", // An empty format will hide the module
         // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
+        "format-icons": [" ", " ", " ", " ", " "]
   },
   
   "custom/lock": {

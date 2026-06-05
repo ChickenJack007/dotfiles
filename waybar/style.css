@@ -3,37 +3,40 @@
     border: none;
 
     /*font-family: Font Awesome, Arial, MesloLGMDZ Nerd Font Propo, sans-serif;*/
-    font-family: "Montserrat Regular", "MesloLGMDZ Nerd Font Propo";
+    /*font-family: "Montserrat Regular", "JetBrainsMono Nerd Font Propo";*/
+    /*font-family: "Montserrat Regular", "Lilex Nerd Font";*/
     /*font-family: Font Awesome, Arial, CommitMono Nerd Font Propo, sans-serif;*/
-    font-size: 12.2px;
+    font-family: "Ubuntu";
+    font-size: 13px;
     color: @text;
-    border-radius: 20px;
+    border-radius: 20;
 }
 
 window {
-	/*font-weight: bold;*/
+  font-weight: normal;
 }
 window#waybar {
-    background: transparent;
+    background: @bg;
+  border: 1px groove alpha(@crust, 0.8);
 }
 /*-----module groups----*/
 .modules-right {
-	background-color: @bg;
-    margin: 2px 12px 0 0;
+	/*background-color: @bg;*/
+    margin: 2px 8 0 0;
 }
 #custom-music {
-  margin: 2px 12px 0 5;
+  margin: 2px 8 0 5;
 }
 .modules-center {
-	background-color: @bg;
-    margin: 2px 13px 0 0;
+	/*background-color: @bg;*/
+    margin: 2px 8 0 0;
 }
 /*#clock {
   font-size: 13px;
 }*/
 .modules-left {
-	background-color: @bg;
-    margin: 2px 12px 0 2;
+	/*background-color: @bg;*/
+    margin: 2px 8 0 2;
 }
 /*-----modules indv----*/
 #workspaces button {
@@ -57,7 +60,7 @@ window#waybar {
 #temperature,
 /*#network,*/
 #pulseaudio,
-#bluetooth
+#bluetooth,
 #power-profiles-daemon,
 #custom-media,
 #custom-lock,
@@ -87,15 +90,15 @@ window#waybar {
   padding: 0 5;
 }
 #tray {
-  padding: 0 5;
+  padding: 0 3;
 }
 #mode {
     color: @red;
     font-weight: bold;
 }
-#custom-appmenu {
+/*#custom-appmenu {
   font-size: 16px;
-} 
+} */
 
 #custom-power {
     background-color: rgba(0,0,0,0.6);

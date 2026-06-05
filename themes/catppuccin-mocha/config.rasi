@@ -6,7 +6,7 @@
     b-color: #1e1e2e;
     fg-color: #cdd6f4;
     fgp-color: #cdd6f4;
-    b-radius: 9px;
+    b-radius: 3px;
     g-padding: 8px;
     hl-color: #1e1e2e;
     hlt-color: #cdd6f4;
@@ -14,9 +14,9 @@
     //wbg-color: #1e1e2e;
     //wbg-color: transparent;
     //wbg-color: #11111b;
-    wbg-color: rgba(30, 30, 46,0.4);
+    wbg-color: rgba(30, 30, 46,0.45);
     //wbg-color: rgba(19,68,163,0.6`);
-    w-border: 2px solid;
+    w-border: 1px solid;
     w-border-color: rgba(137, 180, 250, 0.9);
     w-padding: 12px;
 }
@@ -31,7 +31,7 @@ configuration {
 
 listview {
     columns: 1;
-    lines: 10;
+    lines: 11;
     //fixed-height: true;
     fixed-columns: true;
     cycle: false;

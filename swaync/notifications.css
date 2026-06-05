@@ -33,14 +33,14 @@
 .floating-notifications.background .notification-row .notification-background .notification {
   /*padding: 6px;*/
   background: @background-alt;
-  border-radius: 7px;
-  border: 2px solid @selected;
-  margin-top: 10px;
-  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid @selected;
+  margin-top: 6px;
+  margin-right: 6px;
 }
 
 .floating-notifications.background .notification-row .notification-background .notification.critical {
-  border: 2px solid @urgent;
+  border: 1px solid @urgent;
 }
 
 .floating-notifications.background .notification-row .notification-background .notification .notification-content {
@@ -53,7 +53,7 @@
 
 .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action {
   border-radius: 7px;
-  border: 2px solid @selected;
+  border: 1px solid @selected;
   background-color: @background-alt ;
   margin: 6px;
   border: 1px solid transparent;
@@ -61,7 +61,7 @@
 
 .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action:hover {
   background-color: @hover;
-  border: 2px solid @selected;
+  border: 1px solid @selected;
 }
 
 .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action:active {

@@ -5,14 +5,14 @@
     b-color: #1e1e2e;
     fg-color: #cdd6f4;
     fgp-color: #cdd6f4;
-    b-radius: 9px;
+    b-radius: 3px;
     g-padding: 8px;
     //hl-color: #1e1e2e;
     hlt-color: #cdd6f4;
     alt-color: transparent;
-    wbg-color: rgba(30, 30, 46, 0.4);
-    //wbg-color: rgba(10,16,23,0.4);
-    hl-color: rgba(10,16,23,0.6);
+    wbg-color: rgba(30, 30, 46, 0.45);
+    //wbg-color: rgba(10,16,23,0.45);
+    hl-color: rgba(10,16,23,0.7);
     w-border: 2px solid;
     w-border-color: rgba(33, 97, 185, 0.8);
     w-padding: 12px;

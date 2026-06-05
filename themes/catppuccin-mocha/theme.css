@@ -1,5 +1,5 @@
 /*waybar*/
-@define-color bg rgba(30, 30, 46, 0.4);
+@define-color bg rgba(30, 30, 46, 0.7);
 @define-color red #f38ba8;
 @define-color yellow #f9e2af;
 @define-color green #a6e3a1;
@@ -20,9 +20,9 @@
 /*swaync*/
 @define-color urgent #f38ba8;
 @define-color foreground #cdd6f4;
-@define-color background rgba(30, 30, 46, 0.4);
-@define-color background-alpha rgba(30, 30, 46, 0.4);
-@define-color background-alt rgba(30, 30, 46, 0.4);
+@define-color background rgba(30, 30, 46, 0.7);
+@define-color background-alpha rgba(30, 30, 46, 0.7);
+@define-color background-alt rgba(30, 30, 46, 0.7);
 @define-color accent rgba(137, 180, 250, 0.9);
 @define-color selected rgba(137, 180, 250, 0.9);
 @define-color current-line rgb(30, 30, 46);

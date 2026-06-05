@@ -1,0 +1,7 @@
+require("conf/input")
+require("conf/binds")
+require("conf/startup")
+require("conf/display")
+require("conf/enviornment")
+require("conf/look")
+require("conf/windows")

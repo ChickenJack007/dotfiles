@@ -1,16 +1,16 @@
 #font_family JetBrainsMono Nerd Font Mono
-font_family GeistMono Nerd Font Mono
-bold_font	  auto
-italic_font	  auto
-bold_italic_font  auto
+# font_family GeistMono Nerd Font Mono
+# bold_font	  auto
+# italic_font	  auto
+# bold_italic_font  auto
 
-font_size 9
+font_size 10.2
 
-background_opacity 0.4
+background_opacity 0.45
 scrollbar_handle_opacity 0
 scrollbar_track_opacity 0
 #scrollbar_track_hover 0
-window_padding_width 10
+window_padding_width 5
 shell zsh
 
 remember_window_size no
@@ -101,6 +101,15 @@ sync_to_monitor no
 
 
 # BEGIN_KITTY_THEME
-# Catppuccin-Mocha
+# Nord
 include current-theme.conf
 # END_KITTY_THEME
+
+
+# BEGIN_KITTY_FONTS
+#font_family      family="JetBrains Mono"
+font_family      family="Lilex Nerd Font Mono"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS

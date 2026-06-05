@@ -24,7 +24,8 @@ elif [ "$chosen_network" = "󰖪  Disable Wi-Fi" ]; then
 	nmcli radio wifi off
 else
 	# Message to show when connection is activated successfully
-  	success_message="You are now connected to the Wi-Fi network \"$chosen_id\"."
+  	#success_message="You are now connected to the Wi-Fi network \"$chosen_id\"."
+  	success_message="Connected to \"$chosen_id\""
 	# Get saved connections
 	saved_connections=$(nmcli -g NAME connection)
 	if [[ $(echo "$saved_connections" | grep -w "$chosen_id") = "$chosen_id" ]]; then
