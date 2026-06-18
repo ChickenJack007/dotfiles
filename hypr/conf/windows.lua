@@ -67,7 +67,7 @@ hl.layer_rule({
 
 hl.layer_rule({
   name = "blur",
-  match = { namespace = "rofi|waybar|swaync-control-center|swaync-notification-window|lougoug_dialog", },
+  match = { namespace = "rofi|waybar|swaync-control-center|swaync-notification-window|logout_dialog", },
   blur = true,
   ignore_alpha = 0.2,
 

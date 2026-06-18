@@ -17,10 +17,11 @@ local forceCloseWindowBind = hl.bind(mainMod .. " + SHIFT + X", hl.dsp.window.ki
 hl.bind(mainMod .. " + DELETE", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu))
+--hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. "+ SHIFT + I", hl.dsp.layout("togglesplit"))    -- dwindle only
 hl.bind(mainMod .. "+ ALT + L", hl.dsp.exec_cmd("wlogout"))
+hl.bind(mainMod .. "+ R", hl.dsp.exec_cmd("/home/chess/.config/waybar/scrips/launch.sh"))
 hl.bind("ALT + N", hl.dsp.exec_cmd("swaync-client -t"))
 hl.bind("ALT + Z", hl.dsp.exec_cmd(browser))
 hl.bind("ALT + T", hl.dsp.exec_cmd("thunderbird"))
@@ -56,7 +57,7 @@ hl.bind(mainMod .. " + SHIFT + K", hl.dsp.window.move({ direction = "up"}))
 hl.bind(mainMod .. " + SHIFT + L", hl.dsp.window.move({ direction = "right"}))
 
 
-local toggleFullscreen = hl.bind(mainMod .. " + SHIFT + X", hl.dsp.window.fullscreen("fullscreen", toggle))
+local toggleFullscreen = hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen("fullscreen", toggle))
 
 -- Switch workspaces with mainMod + [0-9]
 -- Move active window to a workspace with mainMod + SHIFT + [0-9]

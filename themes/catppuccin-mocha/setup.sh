@@ -2,23 +2,19 @@
 
 #wallpaper
 awww img ~/.config/themes/catppuccin-mocha/catppuccin_artix.png --transition-type center --transition-fps 60 --transition-step 255
-
+#hyprland border
+cp ~/.config/themes/catppuccin-mocha/look.lua ~/.config/hypr/conf/
 #waybar
 cp ~/.config/themes/catppuccin-mocha/theme.css ~/.config/waybar/
-~/.config/waybar/scrips/launch.sh
-
-#hyprland border
-cp ~/.config/themes/catppuccin-mocha/border.conf ~/.config/hypr/conf/
-hyprctl reload
-
+#swaync
+cp ~/.config/themes/catppuccin-mocha/theme.css ~/.config/swaync/
 #rofi
 cp ~/.config/themes/catppuccin-mocha/config.rasi ~/.config/rofi/
-
 #wlogout
 cp ~/.config/themes/catppuccin-mocha/theme.css ~/.config/wlogout/
 
-#swaync
-cp ~/.config/themes/catppuccin-mocha/theme.css ~/.config/swaync/
+~/.config/waybar/scrips/launch.sh
 ~/.config/swaync/scrips/launch.sh
+hyprctl reload
 
 notify-send "Theme changed"
