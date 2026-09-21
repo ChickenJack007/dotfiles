@@ -25,8 +25,8 @@ hl.config({
     },
 
     decoration = {
-        rounding       = 3,
-        rounding_power = 3,
+        rounding       = 4,
+        rounding_power = 4,
 
         -- Change transparency of focused and unfocused windows
         active_opacity   = 1.0,
@@ -36,7 +36,7 @@ hl.config({
         shadow = {
             enabled      = false,
             range        = 4,
-            render_power = 3,
+            render_power = 2,
             color        = 0xee1a1a1a,
         },
 
@@ -66,9 +66,12 @@ hl.curve("easy",           { type = "spring", mass = 1, stiffness = 71.2633, dam
 
 hl.animation({ leaf = "global",        enabled = true,  speed = 10,   bezier = "default" })
 hl.animation({ leaf = "border",        enabled = true,  speed = 5.39, bezier = "easeOutQuint" })
-hl.animation({ leaf = "windows",       enabled = true,  speed = 4.79, spring = "easy" })
-hl.animation({ leaf = "windowsIn",     enabled = true,  speed = 4.1,  spring = "easy",         style = "popin 87%" })
-hl.animation({ leaf = "windowsOut",    enabled = true,  speed = 1.49, bezier = "linear",       style = "popin 87%" })
+--hl.animation({ leaf = "windows",       enabled = true,  speed = 4.79, spring = "easy" })
+--hl.animation({ leaf = "windowsIn",     enabled = true,  speed = 4.1,  spring = "easy",         style = "popin 87%" })
+--hl.animation({ leaf = "windowsOut",    enabled = true,  speed = 1.49, bezier = "linear",       style = "popin 87%" })
+hl.animation({ leaf = "windows",       enabled = true,  speed = 3.09, bezier = "quick", spring = "easy" })
+hl.animation({ leaf = "windowsIn",     enabled = true,  speed = 2.6, bezier = "quick", spring = "easy",         style = "popin 87%" })
+hl.animation({ leaf = "windowsOut",    enabled = true,  speed = 1.49, bezier = "quick",       style = "popin 87%" })
 hl.animation({ leaf = "fadeIn",        enabled = true,  speed = 1.73, bezier = "almostLinear" })
 hl.animation({ leaf = "fadeOut",       enabled = true,  speed = 1.46, bezier = "almostLinear" })
 hl.animation({ leaf = "fade",          enabled = true,  speed = 3.03, bezier = "quick" })

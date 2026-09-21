@@ -17,26 +17,26 @@ window {
 }
 window#waybar {
     background: @bg;
-  border: 1px groove alpha(@crust, 0.8);
+  /*border: 1px groove alpha(@crust, 0.6);*/
 }
 /*-----module groups----*/
 .modules-right {
 	/*background-color: @bg;*/
-    margin: 2px 8 0 0;
+    margin: 1px 8 0 0;
 }
 #custom-music {
-  margin: 2px 8 0 5;
+  margin: 1px 8 0 5;
 }
 .modules-center {
 	/*background-color: @bg;*/
-    margin: 2px 8 0 0;
+    margin: 1px 8 0 0;
 }
 /*#clock {
   font-size: 13px;
 }*/
 .modules-left {
 	/*background-color: @bg;*/
-    margin: 2px 8 0 2;
+    margin: 1px 8 0 2;
 }
 /*-----modules indv----*/
 #workspaces button {

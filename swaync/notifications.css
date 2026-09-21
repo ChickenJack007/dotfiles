@@ -33,7 +33,7 @@
 .floating-notifications.background .notification-row .notification-background .notification {
   /*padding: 6px;*/
   background: @background-alt;
-  border-radius: 5px;
+  border-radius: 8px;
   border: 1px solid @selected;
   margin-top: 6px;
   margin-right: 6px;

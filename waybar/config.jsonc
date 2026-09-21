@@ -6,17 +6,16 @@
   "margin-right": 10,
   "margin-bottom": 0,
   "height": 15,
-  "spacing" : 0,
+  "spacing" : -1,
   "modules-left": [ 
       "group/log",
       //"custom/appmenu", 
       "hyprland/workspaces", 
       "custom/uptime",
-      "hyprland/window"
+      "hyprland/window",
   ],
 
   "modules-center": [
-      "clock"
   ],
 
   "modules-right": [ 
@@ -25,7 +24,8 @@
       ////"backlight", 
       "pulseaudio",
       "group/widget",
-      "battery"
+      "battery",
+      "clock"
   ],
 
 
@@ -71,7 +71,7 @@
   "format-icons": {
     "default": "",
     "performance": "",
-    "balanced": "",
+    "balanced": " ",
     "power-saver": ""
   }
 },
@@ -97,7 +97,7 @@
   },
 
   "custom/music": {
-    "format": "<span font='9'>  </span>{}",
+    "format": "<span font='9'> </span>{}",
     "escape": true,
     "interval": 1,
     "tooltip": false,

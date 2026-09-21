@@ -1,5 +1,7 @@
 hl.on("hyprland.start", function () 
-  hl.exec_cmd("waybar & swaync & awww-daemon & hypridle")
+  --hl.exec_cmd("waybar & swaync & awww-daemon & hypridle &")
+  hl.exec_cmd("swaync & awww-daemon & hypridle & qs")
   --hl.exec_cmd("gamemoded -d")
   hl.exec_cmd("hyprctl setcursor volantes_cursors 24 & gsettings set org.gnome.desktop.interce cursor_theme 'volantes_cursors'")
+  hl.exec_cmd("systemctl --user start hyprpolkitagent")
 end)
