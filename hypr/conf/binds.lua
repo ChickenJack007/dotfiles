@@ -105,6 +105,7 @@ hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = tr
 hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
 hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),   { locked = true })
 
+hl.bind("ALT + F", hl.dsp.exec_cmd("qs ipc call bar toggle"))
 -- game mode
 hl.bind("ALT + G", function ()
     local game_mode = (hl.get_config("animations.enabled") == false)

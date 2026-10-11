@@ -1,19 +1,17 @@
 ### My Hyprland Config
-![rice1](images/rice1.png)
+![rice](images/rice.png)
 
-![rice2](images/rice2.png)
+![rice3](images/rice3.png)
 
 ## Requirements
-- btop      - System Monitor
-- cava      - Audio Visualizer
-- fastfetch - System Information
-- hyprland  - Window Manager
-- awww      - Wallpaper Manager
-- hyprlock  - Lock Screen
-- hypridle  - Locks Screen When Idle
-- kitty     - Terminal
-- nvim      - IDE
-- rofi      - Application Laucher & Other Menus
-- swaync    - Notification Daemon
-- waybar    - Status Bar
-- wlogout   - Logout Menu (looking to swap with nwg-bar)
+- hyprland   - Window Manager
+- awww       - Wallpaper Manager
+- hyprlock   - Lock Screen
+- hypridle   - Locks Screen When Idle
+- kitty      - Terminal
+- nvim       - IDE
+- rofi       - Application Laucher & Other Menus (swaped to quickshell)
+- swaync     - Notification Daemon
+- waybar     - Status Bar (swaped to quickshell)
+- wlogout    - Logout Menu (looking to swap with quickshell)
+- quickshell - Toolkit for building enviornments
